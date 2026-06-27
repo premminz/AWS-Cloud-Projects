@@ -63,7 +63,7 @@ The IAM User receives permissions through group membership rather than direct po
 
 Created a dedicated S3 bucket that would be used to test access permissions.
 
-**Screenshot:** [Step 1 Screenshot](step%201.png)
+**Screenshot:** [Step 1](step%201.png)
 
 ---
 
@@ -79,7 +79,7 @@ The policy was designed to:
 * Restrict access to every other bucket
 * Restrict access to unrelated AWS services
 
-**Screenshots:** `step 2.png` – `step-10.png`
+**Screenshots:** [Step 2](step%202.png) – [Step 10](step-10.png)
 
 ---
 
@@ -87,7 +87,7 @@ The policy was designed to:
 
 Validated the policy syntax and confirmed that all permissions were correctly configured before creating the policy.
 
-**Screenshots:** `step-11.png` – `step-13.png`
+**Screenshots:** [Step 11](step-11.png) – [Step 13](step-13.png)
 
 ---
 
@@ -97,7 +97,7 @@ Created an IAM Group and attached the newly created custom policy.
 
 Using groups instead of assigning permissions directly to users simplifies administration and follows AWS recommended practices.
 
-**Screenshots:** `step-14.png` – `step-17.png`
+**Screenshots:** [Step 14](step-14.png) – [Step 17](step-17.png)
 
 ---
 
@@ -107,7 +107,7 @@ Created a new IAM user with AWS Management Console access and added the user to 
 
 The user automatically inherited all permissions defined by the attached custom policy.
 
-**Screenshots:** `step-18.png` – `step-22.png`
+**Screenshots:** [Step 18](step-18.png) – [Step 22](step-22.png)
 
 ---
 
@@ -128,7 +128,7 @@ Verified that the user could **not**:
 * Access IAM administrative functions
 * Access unrelated AWS services
 
-**Screenshots:** `step-23.png` – `step-25.png`
+**Screenshots:** [Step 23](step-23.png) – [Step 25](step-25.png)
 
 ---
 
