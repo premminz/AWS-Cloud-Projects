@@ -63,9 +63,7 @@ The IAM User receives permissions through group membership rather than direct po
 
 Created a dedicated S3 bucket that would be used to test access permissions.
 
-**Screenshot:** <a href="step% 1.png">
-    <img src="step% 1.png" width="700">
-</a>
+**Screenshot:** <a href="step%201.png"> <img src="step%201.png" width="700"> </a>
 
 ---
 
